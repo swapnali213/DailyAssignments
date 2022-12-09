@@ -1,0 +1,236 @@
+mysql> insert into Table_Parent(Parents_Name, City, Age, Annual_Income, Occupation));
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+mysql>  insert into Table_Parent(Parents_Name, City, Age, Annual_Income, Occupation) values("Smita" , "Ahemdabad", 35, 5,"Artist");
+Query OK, 1 row affected (0.04 sec)
+
+mysql>  insert into Table_Parent(Parents_Name, City, Age, Annual_Income, Occupation) values("Anjali" , "Pune", 29, 6,"Chemical Engineer");
+Query OK, 1 row affected (0.03 sec)
+
+mysql>  insert into Table_Parent(Parents_Name, City, Age, Annual_Income, Occupation) values("Rohan" , "Chennei", 30, 6,"Software Engineer");
+Query OK, 1 row affected (0.03 sec)
+
+mysql>
+mysql>  insert into Table_Parent(Parents_Name, City, Age, Annual_Income, Occupation) values("James" , "Banglore", 40, 7,"Food Scientist");
+Query OK, 1 row affected (0.03 sec)
+
+mysql>  insert into Table_Parent(Parents_Name, City, Age, Annual_Income, Occupation) values("Mohan" , "Delhi", 35, 5,"Cost Analyst");
+Query OK, 1 row affected (0.03 sec)
+
+mysql>  insert into Table_Parent(Parents_Name, City, Age, Annual_Income, Occupation) values("Kalyani" , "Mumbai", 29, 4,"Designer");
+Query OK, 1 row affected (0.03 sec)
+
+mysql>  insert into Table_Parent(Parents_Name, City, Age, Annual_Income, Occupation) values("Gaurang" , "Pune", 31, 5,"Freelancer");
+Query OK, 1 row affected (0.06 sec)
+
+mysql>  insert into Table_Parent(Parents_Name, City, Age, Annual_Income, Occupation) values("Mahi" , "Ahemdabad", 35, 5,"Entrepreneur");
+Query OK, 1 row affected (0.08 sec)
+
+mysql>  insert into Table_Parent(Parents_Name, City, Age, Annual_Income, Occupation) values("Kaveri" , "Hydrabad", 37,4,"Baker");
+Query OK, 1 row affected (0.10 sec)
+
+mysql>  insert into Table_Parent(Parents_Name, City, Age, Annual_Income, Occupation) values("Shweta" , "Nasik", 38, 3,"Journalist");
+Query OK, 1 row affected (0.04 sec)
+
+mysql>  insert into Table_Parent(Parents_Name, City, Age, Annual_Income, Occupation) values("Tapsee" , "Banglore", 40, 4,"Dancer");
+Query OK, 1 row affected (0.03 sec)
+
+mysql>  insert into Table_Parent(Parents_Name, City, Age, Annual_Income, Occupation) values("Muskan" , "Pune", 45, 6,"Lawyer");
+Query OK, 1 row affected (0.03 sec)
+
+mysql>  insert into Table_Parent(Parents_Name, City, Age, Annual_Income, Occupation) values("Ayer" , "Chennei", 30, 9,"Data Scientist");
+Query OK, 1 row affected (0.02 sec)
+
+mysql>  insert into Table_Parent(Parents_Name, City, Age, Annual_Income, Occupation) values("Devi" , "Chennei", 37, 6,"Developer");
+Query OK, 1 row affected (0.02 sec)
+
+mysql>  insert into Table_Parent(Parents_Name, City, Age, Annual_Income, Occupation) values("Kiran" , "Noida", 30, 4,"Architecture");
+Query OK, 1 row affected (0.04 sec)
+
+mysql>  insert into Table_Parent(Parents_Name, City, Age, Annual_Income, Occupation) values("Martin" , "Delhi", 39, 7,"Doctor");
+Query OK, 1 row affected (0.03 sec)
+
+mysql>  insert into Table_Parent(Parents_Name, City, Age, Annual_Income, Occupation) values("Hardik" , "Nasik", 40, 5,"Mechanic");
+Query OK, 1 row affected (0.02 sec)
+
+mysql>  insert into Table_Parent(Parents_Name, City, Age, Annual_Income, Occupation) values("Joy" , "Mumbai", 43, 8,"Entreprenur");
+Query OK, 1 row affected (0.03 sec)
+
+mysql>  insert into Table_Parent(Parents_Name, City, Age, Annual_Income, Occupation) values("Keshav" , "Noida", 35, 6,"Artist");
+Query OK, 1 row affected (0.01 sec)
+
+mysql>  insert into Table_Parent(Parents_Name, City, Age, Annual_Income, Occupation) values("Tarika" , "Pune", 44, 5,"Manager");
+Query OK, 1 row affected (0.02 sec)
+
+mysql>  insert into Table_Parent(Parents_Name, City, Age, Annual_Income, Occupation) values("Archana" , "Delhi", 29, 4,"Teacher");
+Query OK, 1 row affected (0.03 sec)
+
+mysql> select * from Table_Parent;
++-----------+--------------+-----------+------+---------------+-------------------+
+| Parent_ID | Parents_Name | City      | Age  | Annual_Income | Occupation        |
++-----------+--------------+-----------+------+---------------+-------------------+
+|         1 | Smita        | Ahemdabad |   35 |             5 | Artist            |
+|         2 | Anjali       | Pune      |   29 |             6 | Chemical Engineer |
+|         3 | Rohan        | Chennei   |   30 |             6 | Software Engineer |
+|         4 | James        | Banglore  |   40 |             7 | Food Scientist    |
+|         5 | Mohan        | Delhi     |   35 |             5 | Cost Analyst      |
+|         6 | Kalyani      | Mumbai    |   29 |             4 | Designer          |
+|         7 | Gaurang      | Pune      |   31 |             5 | Freelancer        |
+|         8 | Mahi         | Ahemdabad |   35 |             5 | Entrepreneur      |
+|         9 | Kaveri       | Hydrabad  |   37 |             4 | Baker             |
+|        10 | Shweta       | Nasik     |   38 |             3 | Journalist        |
+|        11 | Tapsee       | Banglore  |   40 |             4 | Dancer            |
+|        12 | Muskan       | Pune      |   45 |             6 | Lawyer            |
+|        13 | Ayer         | Chennei   |   30 |             9 | Data Scientist    |
+|        14 | Devi         | Chennei   |   37 |             6 | Developer         |
+|        15 | Kiran        | Noida     |   30 |             4 | Architecture      |
+|        16 | Martin       | Delhi     |   39 |             7 | Doctor            |
+|        17 | Hardik       | Nasik     |   40 |             5 | Mechanic          |
+|        18 | Joy          | Mumbai    |   43 |             8 | Entreprenur       |
+|        19 | Keshav       | Noida     |   35 |             6 | Artist            |
+|        20 | Tarika       | Pune      |   44 |             5 | Manager           |
+|        21 | Archana      | Delhi     |   29 |             4 | Teacher           |
++-----------+--------------+-----------+------+---------------+-------------------+
+21 rows in set (0.00 sec)
+
+mysql> ALTER TABLE Table_PArent ADD= (Email_ID varchar(30));
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= (Email_ID varchar(30))' at line 1
+mysql> ALTER TABLE Table_PArent ADD(Email_ID varchar(30));
+Query OK, 0 rows affected (0.08 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> select table Table_parent
+    -> ;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'table Table_parent' at line 1
+mysql> select* from Table_Parent
+    -> ;
++-----------+--------------+-----------+------+---------------+-------------------+----------+
+| Parent_ID | Parents_Name | City      | Age  | Annual_Income | Occupation        | Email_ID |
++-----------+--------------+-----------+------+---------------+-------------------+----------+
+|         1 | Smita        | Ahemdabad |   35 |             5 | Artist            | NULL     |
+|         2 | Anjali       | Pune      |   29 |             6 | Chemical Engineer | NULL     |
+|         3 | Rohan        | Chennei   |   30 |             6 | Software Engineer | NULL     |
+|         4 | James        | Banglore  |   40 |             7 | Food Scientist    | NULL     |
+|         5 | Mohan        | Delhi     |   35 |             5 | Cost Analyst      | NULL     |
+|         6 | Kalyani      | Mumbai    |   29 |             4 | Designer          | NULL     |
+|         7 | Gaurang      | Pune      |   31 |             5 | Freelancer        | NULL     |
+|         8 | Mahi         | Ahemdabad |   35 |             5 | Entrepreneur      | NULL     |
+|         9 | Kaveri       | Hydrabad  |   37 |             4 | Baker             | NULL     |
+|        10 | Shweta       | Nasik     |   38 |             3 | Journalist        | NULL     |
+|        11 | Tapsee       | Banglore  |   40 |             4 | Dancer            | NULL     |
+|        12 | Muskan       | Pune      |   45 |             6 | Lawyer            | NULL     |
+|        13 | Ayer         | Chennei   |   30 |             9 | Data Scientist    | NULL     |
+|        14 | Devi         | Chennei   |   37 |             6 | Developer         | NULL     |
+|        15 | Kiran        | Noida     |   30 |             4 | Architecture      | NULL     |
+|        16 | Martin       | Delhi     |   39 |             7 | Doctor            | NULL     |
+|        17 | Hardik       | Nasik     |   40 |             5 | Mechanic          | NULL     |
+|        18 | Joy          | Mumbai    |   43 |             8 | Entreprenur       | NULL     |
+|        19 | Keshav       | Noida     |   35 |             6 | Artist            | NULL     |
+|        20 | Tarika       | Pune      |   44 |             5 | Manager           | NULL     |
+|        21 | Archana      | Delhi     |   29 |             4 | Teacher           | NULL     |
++-----------+--------------+-----------+------+---------------+-------------------+----------+
+21 rows in set (0.00 sec)
+
+mysql> select * from Table_Parent where Annual_Income>6;
++-----------+--------------+----------+------+---------------+----------------+----------+
+| Parent_ID | Parents_Name | City     | Age  | Annual_Income | Occupation     | Email_ID |
++-----------+--------------+----------+------+---------------+----------------+----------+
+|         4 | James        | Banglore |   40 |             7 | Food Scientist | NULL     |
+|        13 | Ayer         | Chennei  |   30 |             9 | Data Scientist | NULL     |
+|        16 | Martin       | Delhi    |   39 |             7 | Doctor         | NULL     |
+|        18 | Joy          | Mumbai   |   43 |             8 | Entreprenur    | NULL     |
++-----------+--------------+----------+------+---------------+----------------+----------+
+4 rows in set (0.00 sec)
+
+mysql> select * from Table_Parent where city =" Ahemdabad ";
+Empty set (0.00 sec)
+
+mysql> select * from Table_Parent where City="Ahemdabad";
++-----------+--------------+-----------+------+---------------+--------------+----------+
+| Parent_ID | Parents_Name | City      | Age  | Annual_Income | Occupation   | Email_ID |
++-----------+--------------+-----------+------+---------------+--------------+----------+
+|         1 | Smita        | Ahemdabad |   35 |             5 | Artist       | NULL     |
+|         8 | Mahi         | Ahemdabad |   35 |             5 | Entrepreneur | NULL     |
++-----------+--------------+-----------+------+---------------+--------------+----------+
+2 rows in set (0.00 sec)
+
+mysql> select* from Table_Parent where City= "Delhi";
++-----------+--------------+-------+------+---------------+--------------+----------+
+| Parent_ID | Parents_Name | City  | Age  | Annual_Income | Occupation   | Email_ID |
++-----------+--------------+-------+------+---------------+--------------+----------+
+|         5 | Mohan        | Delhi |   35 |             5 | Cost Analyst | NULL     |
+|        16 | Martin       | Delhi |   39 |             7 | Doctor       | NULL     |
+|        21 | Archana      | Delhi |   29 |             4 | Teacher      | NULL     |
++-----------+--------------+-------+------+---------------+--------------+----------+
+3 rows in set (0.00 sec)
+
+mysql> select* from Table_Parent where City= "Mumbai";
++-----------+--------------+--------+------+---------------+-------------+----------+
+| Parent_ID | Parents_Name | City   | Age  | Annual_Income | Occupation  | Email_ID |
++-----------+--------------+--------+------+---------------+-------------+----------+
+|         6 | Kalyani      | Mumbai |   29 |             4 | Designer    | NULL     |
+|        18 | Joy          | Mumbai |   43 |             8 | Entreprenur | NULL     |
++-----------+--------------+--------+------+---------------+-------------+----------+
+2 rows in set (0.00 sec)
+
+mysql> select* from Table_Parent where City= "chennei";
++-----------+--------------+---------+------+---------------+-------------------+----------+
+| Parent_ID | Parents_Name | City    | Age  | Annual_Income | Occupation        | Email_ID |
++-----------+--------------+---------+------+---------------+-------------------+----------+
+|         3 | Rohan        | Chennei |   30 |             6 | Software Engineer | NULL     |
+|        13 | Ayer         | Chennei |   30 |             9 | Data Scientist    | NULL     |
+|        14 | Devi         | Chennei |   37 |             6 | Developer         | NULL     |
++-----------+--------------+---------+------+---------------+-------------------+----------+
+3 rows in set (0.00 sec)
+
+mysql> select* from Table_Parent where City= "Banglore";
++-----------+--------------+----------+------+---------------+----------------+----------+
+| Parent_ID | Parents_Name | City     | Age  | Annual_Income | Occupation     | Email_ID |
++-----------+--------------+----------+------+---------------+----------------+----------+
+|         4 | James        | Banglore |   40 |             7 | Food Scientist | NULL     |
+|        11 | Tapsee       | Banglore |   40 |             4 | Dancer         | NULL     |
++-----------+--------------+----------+------+---------------+----------------+----------+
+2 rows in set (0.00 sec)
+
+mysql> select * from Table_Parent where Anuual_Income<5;
+ERROR 1054 (42S22): Unknown column 'Anuual_Income' in 'where clause'
+mysql> select * from Table_Parent where Annual_Income<5;
++-----------+--------------+----------+------+---------------+--------------+----------+
+| Parent_ID | Parents_Name | City     | Age  | Annual_Income | Occupation   | Email_ID |
++-----------+--------------+----------+------+---------------+--------------+----------+
+|         6 | Kalyani      | Mumbai   |   29 |             4 | Designer     | NULL     |
+|         9 | Kaveri       | Hydrabad |   37 |             4 | Baker        | NULL     |
+|        10 | Shweta       | Nasik    |   38 |             3 | Journalist   | NULL     |
+|        11 | Tapsee       | Banglore |   40 |             4 | Dancer       | NULL     |
+|        15 | Kiran        | Noida    |   30 |             4 | Architecture | NULL     |
+|        21 | Archana      | Delhi    |   29 |             4 | Teacher      | NULL     |
++-----------+--------------+----------+------+---------------+--------------+----------+
+6 rows in set (0.00 sec)
+
+mysql> select * from Table_Parent where Age>45;
+Empty set (0.00 sec)
+
+mysql> select * from Table_Parent where Age>=45;
++-----------+--------------+------+------+---------------+------------+----------+
+| Parent_ID | Parents_Name | City | Age  | Annual_Income | Occupation | Email_ID |
++-----------+--------------+------+------+---------------+------------+----------+
+|        12 | Muskan       | Pune |   45 |             6 | Lawyer     | NULL     |
++-----------+--------------+------+------+---------------+------------+----------+
+1 row in set (0.00 sec)
+
+mysql>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
